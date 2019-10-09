@@ -10,6 +10,7 @@ import java.util.Optional;
 
 @Component
 public class Mutation implements GraphQLMutationResolver {
+
     private LocationRepository locationRepository;
 
     public Mutation(LocationRepository locationRepository) {
